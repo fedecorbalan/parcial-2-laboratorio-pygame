@@ -1,8 +1,40 @@
-# Juego Galaxia
+# Galaxy✨
+![image](https://github.com/fedecorbalan/parcial-2-laboratorio-pygame/assets/123754871/b490a399-f6b1-42ae-af8d-ade082e253f0)
+
 ## Alumno: Federico Corbalán, División 1-J
 
+### Caracteristicas:
+-La nave propia se mueve de izquierda a derecha o viceversa,
+nunca hacia adelante o hacia atrás.
+
+-Al final de cada partida se guarda el SCORE junto con el nombre
+de usuario. 
+
+-Se elabora un ranking ordenado de mayor a menor puntuación, mostrando su respectivo nombre y puntuación.
+
+### Incluye:
+⚪ Archivos.
+
+⚪ POO.
+
+⚪ Texto para ir mostrando el SCORE.
+
+⚪ Eventos.
+
+⚪ Colisiones.
+
+⚪ Manejo de rectángulo.
+
+⚪ Temporizador.
+
+⚪ Imágenes.
+
+⚪ Audios.
+
+⚪ Ranking de puntuaciones
+
 ## Codigo Principal
-```cpp
+```python
 import pygame, sys
 from pygame.locals import *
 from personaje import Jugador 
@@ -201,7 +233,7 @@ if __name__ == '__main__':
 
 ```
 ## Clase Jugador
-```cpp
+```python
 import pygame
 from laser import Laser
 
@@ -269,7 +301,7 @@ class Jugador(pygame.sprite.Sprite):
         self.lasers.update()
 ``` 
 ## Clase Asteroide
-```cpp
+```python
 import pygame
 import random
 from laser import Laser
@@ -307,7 +339,7 @@ class Enemigo(pygame.sprite.Sprite):
         self.movimiento()   
 ```
 ## Clase Laser
-```cpp
+```python
 import pygame
 from pygame.sprite import Group
 
@@ -334,7 +366,7 @@ class Laser(pygame.sprite.Sprite):
         self.rect.y += self.velocidad
 ```
 ## Biblioteca
-```cpp
+```python
 import sqlite3
 
 def creacion_tabla_scores(ruta):
