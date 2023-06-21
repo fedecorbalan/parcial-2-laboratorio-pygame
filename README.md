@@ -5,7 +5,9 @@
 
 ### Caracteristicas:
 -La nave propia se mueve de izquierda a derecha o viceversa,
-nunca hacia adelante o hacia atrás.
+nunca hacia adelante y hacia atrás.
+
+-Se generan asteroides en posiciones aleatorias en el eje X
 
 -Al final de cada partida se guarda el SCORE junto con el nombre
 de usuario. 
