@@ -35,6 +35,9 @@ de usuario.
 
 ⚪ Ranking de puntuaciones
 
+## Imagen del juego
+![image](https://github.com/fedecorbalan/parcial-2-laboratorio-pygame/assets/123754871/75d571f3-acf7-4318-96a6-74290d2349e4)
+
 ## Codigo Principal
 ```python
 import pygame, sys
