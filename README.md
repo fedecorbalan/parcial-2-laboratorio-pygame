@@ -5,7 +5,7 @@
 
 ### Caracteristicas:
 -La nave propia se mueve de izquierda a derecha o viceversa,
-nunca hacia adelante y hacia atrás.
+nunca hacia adelante y hacia atrás y dispara laseres.
 
 -Se generan asteroides en posiciones aleatorias en el eje X
 
