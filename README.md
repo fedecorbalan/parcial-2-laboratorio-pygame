@@ -190,7 +190,7 @@ if __name__ == '__main__':
             # asteroides mas
                 juego.score = 0
                 juego.vidas = 3
-                for i in range(20):
+                for i in range(25):
                     asteroide = Enemigo()
                     asteroide.rect.x = random.randrange(ANCHO)
                     asteroide.rect.y = random.randint(0,400)
